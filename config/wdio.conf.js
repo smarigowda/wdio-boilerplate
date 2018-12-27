@@ -71,9 +71,9 @@ exports.config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [
-      {
-        browserName: 'chrome'
-      },
+    //   {
+    //     browserName: 'chrome'
+    //   },
       {
         browserName: 'firefox'
       }
@@ -93,6 +93,8 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error
     logLevel: 'error',
+    // debug: true,
+    // execArgv: ['--inspect-brk=127.0.0.1:5859'],
     //
     // Enables colors for log output.
     coloredLogs: true,
@@ -111,7 +113,7 @@ exports.config = {
     bail: 0,
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 30000,
+    waitforTimeout: 300000,
     //
     // Initialize the browser instance with a WebdriverIO plugin. The object should have the
     // plugin name as key and the desired plugin options as properties. Make sure you have

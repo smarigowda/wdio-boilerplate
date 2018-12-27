@@ -4,7 +4,9 @@ describe('FF test', () => {
   });
   describe('setValue test', () => {
     it('should set the value of the input', () => {
-      const input = browser.waitForShadowDomElement(['#search-input input']);
+      // browser.debug()
+      // const input = browser.waitForShadowDomElement(['#search-input input']);
+      const input = $('#search-input input')
       input.setValue('webcomponents');
       expect(input.getValue()).toEqual('webcomponents');
     });

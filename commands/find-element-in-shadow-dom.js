@@ -29,7 +29,7 @@ function findInShadowDom(selectors) {
         break;
       }
     }
-
+    debugger;
     return currentElement;
   }
 
