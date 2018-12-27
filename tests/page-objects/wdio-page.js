@@ -1,6 +1,6 @@
 // oops! we started a refactor, but forgot to
 // remove references to waitDelay in the open() function below.
-// const waitDelay = 2000;
+const waitDelay = 2000;
 
 class WDIOPage {
   open() {

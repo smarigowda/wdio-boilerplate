@@ -8,7 +8,7 @@ describe('exmple test', () => {
 
   it('should get the title', () => {
     const title = browser.getTitle();
-    expect(title).toBe('WebdriverIO - WebDriver bindings for Node.js');
+    expect(title).toBe('WebdriverIO · Next-gen WebDriver test framework for Node.js');
   });
 
   it('should have a header', () => {
